@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Amazon</title>
+    <!--add logo in title-->
+    <link rel="icon" href="./images/logo.png" class="rounded-lg">
+
+    <!--awsome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--flowbite-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</head>
+<body>
+    <!--flowbite-->
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+    
+
+<!-- drawer init and show -->
+<div class="text-center">
+    <div class="text-white bg-black w-[100px] flex  font-medium rounded-lg text-sm px-5 py-2.5" type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation" aria-controls="drawer-navigation">
+    <img src="./images/more.png" alt="more" class="h-4">
+    <p class="px-3">ALL</p>
+    </div>
+ </div>
+ 
+ <!-- drawer component -->
+ <div id="drawer-navigation" class="fixed top-0 left-0 z-40 w-96 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800" tabindex="-1" aria-labelledby="drawer-navigation-label">
+     <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400 flex"><img src="./images/user.png" class="h-5 px-3">Hello, Sign in</h5>
+     <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" >
+         <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+         <span class="sr-only">Close menu</span>
+     </button>
+   <div class="py-4 overflow-y-auto">
+       <ul class="space-y-2 font-medium">
+          <li>
+             <a href="#" class=" items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <div class="ms-3 font-bold text-xl">Trending</div>
+                <div class="ms-3 pt-4">Best Seller</div>
+                <div class="ms-3 pt-4">New Releases</div>
+                <div class="ms-3 pt-4">Mover and Shakers</div>
+             </a>
+          </li><hr>
+          <li>
+             <a href="#" class="items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <div class="ms-3 font-bold text-xl">Digital Content and Devices</div>
+                <div class="ms-3 pt-4">Amazon miniTV-FREE entertainment</div>
+                <div class="ms-3 pt-4">Echo & Alexa</div>
+                <div class="ms-3 pt-4">Kindle E-Readers & eBooks</div>
+                <div class="ms-3 pt-4">Audiable Audiobooks</div>
+                <div class="ms-3 pt-4">Amazon Prime Video</div>
+                <div class="ms-3 pt-4">Amazon Prime Music</div>
+             </a>   
+          </li><hr>
+          <li>
+             <a href="#" class="items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                <div class="ms-3 font-bold text-xl">Shop by Category</div>
+                <div class="ms-3 pt-4">Mobiles, Computers</div>
+                <div class="ms-3 pt-4">TV, Appliances, Electronics</div>
+                <div class="ms-3 pt-4">Men's Fashion</div>
+                <div class="ms-3 pt-4">Women's Fashion</div>
+                <div class="ms-3 pt-4">See all</div>
+             </a>
+          </li>
+          <li>
+            <a href="#" class="items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+              <div class="ms-3 font-bold text-xl">Programs & Features</div>
+              <div class="ms-3 pt-4">Amazon Pay</div>
+              <div class="ms-3 pt-4">Gifts Cards & Mobile Recharges</div>
+              <div class="ms-3 pt-4">Amazon Lunchpad</div>
+              <div class="ms-3 pt-4">Amazon Business</div>
+              <div class="ms-3 pt-4">See all</div>
+            </a>
+         </li>
+          <li>
+             <a href="#" class="items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+               <div class="ms-3 font-bold text-xl">Help & Settings</div>
+               <div class="ms-3 pt-4">Your Account</div>
+               <div class="ms-3 pt-4">Customer Service</div>
+               <div class="ms-3 pt-4">Sign in</div>
+             </a>
+          </li>
+          </ul>
+    </div>
+ </div>
+ 
+</body>
+</html>

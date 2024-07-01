@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tailwind css-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Amazon</title>
+
+    <!--add logo in title-->
+    <link rel="icon" href="./images/logo.png" class="rounded-lg">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!--awsome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--flowbite-->
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+
+    <!--nav-->
+    <div class="h-14 bg-black flex" id="top">
+        <img src="./images/1688364164amazon-logo-transparent.webp" alt="amazon"
+            class="h-[50px] bg-black mx-4 pt-3 px-3 cursor-pointer hover:border-white hover:border-2">
+
+        <img src="./images/location.png" alt="location" class="h-6 mt-4">
+        <p class="text-white text-sm pt-2 px-1">Delivering to Ahmedabad 380004<br><b class="font-sans">Update
+                location</b></p>
+
+
+        <div class=" flex w-[500px] bg-white h-9 mt-2 rounded-md mx-2 cursor-pointer">
+            <div class="bg-gray-200 w-14 h-9 rounded-l-md px-3 pt-1 cursor-pointer">All</div>
+            <div class="mt-1 px-4"><input type="text" placeholder="Search in Amazon.in"
+                    class="h-7 w-[350px] outline-none"></div>
+            <div><img src="./images/search.png" alt="search" class="h-9 mx-3 bg-yellow-500 rounded-r-md"></div>
+        </div>
+
+        <div class="flex">
+            <img src="./images/flag.png" alt="india" class="h-[40px] px-2 pt-4">
+            <p class="text-white pt-4 font-bold">EN <b class="text-[8px]">▼</b></p>
+        </div>
+
+        <p class="text-white px-3 pt-2 text-sm">Hello, sign in <br><b class="font-sans">Account & Lists</b> <b
+                class="text-[10px] px-1">▼</b></p>
+
+        <p class="text-white px-3 pt-2 text-sm">Returns <br><b class="font-sans"> & Orders</b></p>
+
+        <img src="./images/cart.png" alt="cart" class="h-9 mt-3">
+        <p class="text-white font-bold pt-6 font-sans">Cart</p>
+    </div>
+
+    <!--second nav-->
+    <div class="bg-slate-700 flex h-10 cursor-pointer">
+        <img src="./images/more.png" alt="menu" class="h-7 px-2 pt-2">
+        <ul class="flex text-white py-2 mx-1">
+            <li class=" cursor-pointer">All</li>
+            <li class="mx-2 cursor-pointer">Fresh</li>
+            <a href="./AmazonMiniTV.html"><li class="mx-1 cursor-pointer">Amazon miniTV</li></a>
+            <li class="mx-2 cursor-pointer">Sell</li>
+            <li class="mx-2 cursor-pointer">Best Sellers</li>
+            <li class="mx-2 cursor-pointer">Today'S Deals</li>
+            <li class="mx-2 cursor-pointer">Mobiles</li>
+            <li class="mx-2 cursor-pointer">Fashion</li>
+            <li class="mx-2 cursor-pointer">Electronics</li>
+            <li class="mx-2 cursor-pointer">Prime</li>
+            <li class="mx-2 cursor-pointer">Home & Kitchen</li>
+            <li class="mx-2 cursor-pointer">New Releases</li>
+            <li class="mx-2 cursor-pointer">Customer Service</li>
+            <li class="mx-2 cursor-pointer">Amazon Pay</li>
+            <li class="mx-1 cursor-pointer">Computers</li>
+        </ul>
+    </div>
+
+    <!--background-->
+
+    <div class="relative">
+        <div class="flex absolute mt-[300px] cursor-pointer">
+
+            <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 19rem;">
+                <h1 class="px-3 py-1 font-bold text-xl">Appliances for your home | Up to 55% off</h1>
+
+                <div class="flex">
+                    <img src="./images/1.jpg" alt="1" class="h-[110px] w-[135px] mx-2 pt-2">
+                    <img src="./images/2.jpg" alt="2" class="h-[110px] w-[135px] mx-2 pt-2">
+                </div>
+
+                <div class="flex">
+                    <p class="text-sm mx-2 pt-2">Air Conditioners</p>
+                    <p class="text-sm mx-5 pt-2">Refrigerators</p>
+                </div>
+
+                <div class="flex">
+                    <img src="./images/3.jpg" alt="1" class="h-[110px] w-[135px] mx-2 pt-3">
+                    <img src="./images/4.jpg" alt="2" class="h-[110px] w-[135px] mx-2 pt-3">
+                </div>
+
+                <div class="flex">
+                    <p class="text-sm mx-2 pt-2">MicroWaves</p>
+                    <p class="text-sm ml-16 pt-2">Washing Machine</p>
+                </div>
+
+                <a href="#" class="text-sm pt-11 px-3 text-blue-500">See more</a>
+            </div>
+
+
+            <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+                <h1 class="px-3 py-1 font-bold text-xl">Revamp your home in style</h1>
+
+                <div class="flex">
+                    <img src="./images/5.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-3">
+                    <img src="./images/6.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-3">
+                </div>
+
+                <div class="flex">
+                    <p class="text-sm ml-3 pt-2 w-[130px]">Cushion covers, bedsheet & more</p>
+                    <p class="text-sm ml-5 pt-2">Figurines, Vases and more</p>
+                </div>
+
+                <div class="flex">
+                    <img src="./images/7.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-3">
+                    <img src="./images/8.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-3">
+                </div>
+
+                <div class="flex">
+                    <p class="text-sm ml-4 pt-2">Home Storage</p>
+                    <p class="text-sm ml-14 pt-2">Lighting Solutions</p>
+                </div>
+
+                <a href="#" class="text-sm pt-14 px-3 text-blue-500">Explore All</a>
+            </div>
+
+
+            <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+                <h1 class="px-3 py-1 font-bold text-xl">Starting ₹199 | Amazon Brands & more</h1>
+
+                <div class="flex">
+                    <img src="./images/9.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-1">
+                    <img src="./images/10.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-1">
+                </div>
+
+                <div class="flex">
+                    <p class="text-sm ml-4  pt-2">Starting ₹199 <br> Bedsheets</p>
+                    <p class="text-sm ml-16 pt-2">Starting ₹199 <br> Curtains</p>
+                </div>
+
+                <div class="flex">
+                    <img src="./images/11.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-2">
+                    <img src="./images/12.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-2">
+                </div>
+
+                <div class="flex">
+                    <p class="text-xs ml-5 pt-1 w-[130px]">Min.40% of f | Ironing Boards & more </p>
+                    <p class="text-xs ml-6 pt-1">Up to 60% off | Home Decor</p>
+                </div>
+
+                <a href="#" class="text-sm pt-6 px-3 text-blue-500">See more</a>
+            </div>
+
+
+            <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+                <h1 class="px-3 py-1 font-bold text-xl">Starting ₹199 | Amazon Brands & more</h1>
+
+                <div class="flex">
+                    <img src="./images/13.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-1">
+                    <img src="./images/14.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-1">
+                </div>
+
+                <div class="flex">
+                    <p class="text-xs ml-4  pt-2">Starting ₹179 <br> Home Decor</p>
+                    <p class="text-xs ml-20 pt-2">Up to 60% off | <br> Storage & Racks</p>
+                </div>
+
+                <div class="flex">
+                    <img src="./images/15.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-2">
+                    <img src="./images/16.jfif" alt="2" class="h-[110px] w-[135px] ml-3 pt-2">
+                </div>
+
+                <div class="flex">
+                    <p class="text-xs ml-5 pt-1 w-[130px]">Starting ₹99 | Toys & Games </p>
+                    <p class="text-xs ml-6 pt-1">Up to 60% off | Jackets, dresses & more</p>
+                </div>
+
+                <a href="#" class="text-sm pt-4 px-3 text-blue-500">Shop now</a>
+            </div>
+
+        </div>
+        <img src="./images/pc_unrec_june_ubs._CB554831429_.jpg" alt="background">
+
+    </div>
+
+    <!--slider-->
+    <div class="card h-[270px] w-full-screen mx-3 mt-[18%] rounded-none  snap-proximity snap-x cursor-pointer">
+        <div class="flex">
+            <p class="px-3 py-1 font-bold text-2xl">Up to 70% off | Bestsellers curated from artians</p>
+            <a href="#" class="pt-[12px] text-md text-blue-800">See more offers</a>
+        </div>
+
+        <div class="flex" style="overflow-x: auto;" style="scroll-snap-type: x mandatory;">
+            <img src="./images/21.jpg" alt="21" class="mx-3 mt-3">
+            <img src="./images/22.jpg" alt="22" class="mx-3 mt-3">
+            <img src="./images/23.jpg" alt="23" class="mx-3 mt-3">
+            <img src="./images/24.jpg" alt="24" class="mx-3 mt-3">
+            <img src="./images/25.jpg" alt="25" class="mx-3 mt-3">
+            <img src="./images/26.jpg" alt="26" class="mx-3 mt-3">
+            <img src="./images/27.jpg" alt="27" class="mx-3 mt-3">
+            <img src="./images/28.jpg" alt="28" class="mx-3 mt-3">
+            <img src="./images/29.jpg" alt="29" class="mx-3 mt-3">
+            <img src="./images/30.jpg" alt="30" class="mx-3 mt-3">
+            <img src="./images/31.jpg" alt="31" class="mx-3 mt-3">
+            <img src="./images/32.jpg" alt="32" class="mx-3 mt-3">
+            <img src="./images/33.jpg" alt="33" class="mx-3 mt-3">
+            <img src="./images/34.jpg" alt="34" class="mx-3 mt-3">
+            <img src="./images/35.jpg" alt="35" class="mx-3 mt-3">
+        </div>
+    </div>
+
+    <!--slider1-->
+    <div class="card h-[270px] w-full-screen mx-3 mt-[3%] rounded-none  snap-proximity snap-x cursor-pointer">
+        <div class="flex">
+            <p class="px-3 py-1 font-bold text-2xl">Minimum 40% off | Sofa sets, outdoor furniture & more from stores
+                nearby</p>
+            <a href="#" class="pt-[12px] text-md text-blue-800">See more offers</a>
+        </div>
+
+        <div class="flex" style="overflow-x: auto;" style="scroll-snap-type: x mandatory;">
+            <img src="./images/41.jpg" alt="41" class="mx-3 mt-3">
+            <img src="./images/42.jpg" alt="42" class="mx-3 mt-3">
+            <img src="./images/43.jpg" alt="43" class="mx-3 mt-3">
+            <img src="./images/44.jpg" alt="44" class="mx-3 mt-3">
+            <img src="./images/45.jpg" alt="45" class="mx-3 mt-3">
+            <img src="./images/46.jpg" alt="46" class="mx-3 mt-3">
+            <img src="./images/47.jpg" alt="47" class="mx-3 mt-3">
+            <img src="./images/48.jpg" alt="48" class="mx-3 mt-3">
+            <img src="./images/49.jpg" alt="49" class="mx-3 mt-3">
+            <img src="./images/50.jpg" alt="50" class="mx-3 mt-3">
+            <img src="./images/51.jpg" alt="51" class="mx-3 mt-3">
+            <img src="./images/52.jpg" alt="52" class="mx-3 mt-3">
+            <img src="./images/53.jpg" alt="53" class="mx-3 mt-3">
+            <img src="./images/54.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/55.jpg" alt="54" class="mx-3 mt-3">
+
+        </div>
+    </div>
+
+    <!--cards-->
+    <div class="flex mt-11 cursor-pointer">
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 19rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Pick up where you left off</h1>
+
+            <div class="flex mt-4">
+                <img src="./images/aa.jpg" alt="1" class="h-[110px] w-[135px] mx-2 pt-2">
+                <img src="./images/am.jpg" alt="2" class="h-[110px] w-[135px] mx-2 pt-2">
+            </div>
+
+            <div class="flex">
+                <p class="text-sm mx-3 pt-2">Boldfit Adjustable Hand Grip</p>
+                <p class="text-sm mx-5 pt-2">Cosco Stretch Resistance Band</p>
+            </div>
+
+            <div class="flex">
+                <img src="./images/ac.jpg" alt="1" class="h-[110px] w-[135px] mx-2 pt-3">
+                <img src="./images/ad.jpg" alt="2" class="h-[110px] w-[135px] mx-2 pt-3">
+            </div>
+
+            <div class="flex">
+                <p class="text-sm mx-2 pt-2">HealthHike Yoga Band</p>
+                <p class="text-sm ml-5 pt-2">Dumbbells</p>
+            </div>
+
+            <a href="#" class="text-sm pt-8 px-3 text-blue-500">See more</a>
+        </div>
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Starting ₹99 | Start your fitness journey</h1>
+
+            <div class="flex">
+                <img src="./images/00.jpg" alt="1" class="my-3 px-2 h-[250px]">
+
+            </div>
+
+
+            <a href="#" class="text-sm pt-4 px-3 text-blue-500">Shop now</a>
+        </div>
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Top picks | Up to 60% off</h1>
+
+            <div class="flex">
+                <img src="./images/ar.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-3">
+                <img src="./images/aq.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-3">
+            </div>
+
+            <div class="flex">
+                <p class="text-sm ml-3 pt-2 w-[130px]">Walking Shoes</p>
+                <p class="text-sm ml-5 pt-2">Men's Sports Shoes</p>
+            </div>
+
+            <div class="flex">
+                <img src="./images/aw.jpg" alt="1" class="h-[110px] w-[135px] ml-4 pt-3">
+                <img src="./images/aj.jpg" alt="2" class="h-[110px] w-[135px] ml-3 pt-3">
+            </div>
+
+            <div class="flex">
+                <p class="text-sm ml-4 pt-2">Sports Running Shoes</p>
+                <p class="text-sm ml-14 pt-2">Men's Shoes</p>
+            </div>
+
+            <a href="#" class="text-sm pt-14 px-3 text-blue-500">Explore All</a>
+        </div>
+
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Minimum 50% off | Indoor plants</h1>
+
+            <div class="flex">
+                <img src="./images/0.jpg" alt="1" class="my-3 px-2 h-[250px]">
+            </div>
+
+            <a href="#" class="text-sm pt-6 px-3 text-blue-500">See more</a>
+        </div>
+
+    </div>
+
+
+    <!--slider2-->
+    <div class="card h-[270px] w-full-screen mx-3 mt-[3%] rounded-none  snap-proximity snap-x cursor-pointer">
+        <div class="flex">
+            <p class="px-3 py-1 font-bold text-2xl">Minimum 50% off | Kitchen needs curated from stores nearby</p>
+            <a href="#" class="pt-[12px] text-md text-blue-800">See more offers</a>
+        </div>
+
+        <div class="flex" style="overflow-x: auto;" style="scroll-snap-type: x mandatory;">
+            <img src="./images/a.jpg" alt="41" class="mx-3 mt-3">
+            <img src="./images/b.jpg" alt="42" class="mx-3 mt-3">
+            <img src="./images/c.jpg" alt="43" class="mx-3 mt-3">
+            <img src="./images/d.jpg" alt="44" class="mx-3 mt-3">
+            <img src="./images/e.jpg" alt="45" class="mx-3 mt-3">
+            <img src="./images/f.jpg" alt="46" class="mx-3 mt-3">
+            <img src="./images/g.jpg" alt="47" class="mx-3 mt-3">
+            <img src="./images/h.jpg" alt="48" class="mx-3 mt-3">
+            <img src="./images/i.jpg" alt="49" class="mx-3 mt-3">
+            <img src="./images/j.jpg" alt="50" class="mx-3 mt-3">
+            <img src="./images/k.jpg" alt="51" class="mx-3 mt-3">
+            <img src="./images/l.jpg" alt="52" class="mx-3 mt-3">
+            <img src="./images/m.jpg" alt="53" class="mx-3 mt-3">
+            <img src="./images/n.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/o.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/p.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/q.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/r.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/s.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/t.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/u.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/v.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/w.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/x.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/y.jpg" alt="54" class="mx-3 mt-3">
+            <img src="./images/z.jpg" alt="54" class="mx-3 mt-3">
+
+        </div>
+    </div>
+
+
+
+    <!--small card-->
+
+    <div class="card h-[300px] mx-[200px] rounded-none mt-11 cursor-pointer">
+        <div class="flex">
+            <img src="./images/29.jpg" alt="28" class="h-[200px] w-[200px] mx-5 mt-5">
+            <h1 class="text-xl font-bold px-3 pt-[70px] w-[600px]">AAFIYA HANDICRAFTS Modern coffeeTable Set with Solid
+                Powder-Coated Metal Frame & Water Proof Laminated Finish Table Top (Gold - White)<br><br>
+                <hr><b class="text-red-400 font-normal">-51% </b>₹3,699
+            </h1>
+        </div>
+
+
+        <div class="flex items-center px-[90px] pt-3">
+            <svg class="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" viewBox="0 0 22 20">
+                <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" viewBox="0 0 22 20">
+                <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" viewBox="0 0 22 20">
+                <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 text-yellow-400 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor" viewBox="0 0 22 20">
+                <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+            <svg class="w-4 h-4 ms-1 text-gray-300 dark:text-gray-500" aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                <path
+                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+            </svg>
+        </div>
+    </div>
+
+    <!--cards-->
+    <div class="flex mt-12 cursor-pointer">
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 19rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Up to 50% off | International brands</h1>
+
+            <div class="flex mt-3">
+                <img src="./images/01.jpg" alt="1" class=" px-2 pt-2">
+            </div>
+
+            <a href="#" class="text-sm pt-16 px-3 text-blue-500">See all offers</a>
+        </div>
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Namacool | Streaming Now</h1>
+
+            <div class="flex mt-1">
+                <img src="./images/03.jpg" alt="1" class="my-11 px-2">
+
+            </div>
+
+
+            <a href="#" class="text-sm pt-1 px-3 text-blue-500">Check out other exciting shows on miniTV</a>
+        </div>
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Under ₹699 | Combo packs | Amazon brands & more</h1>
+
+            <div class="flex">
+                <img src="./images/02.jpg" alt="1" class="px-3 pt-3">
+            </div>
+            <a href="#" class="text-sm pt-16 px-3 text-blue-500">Explore All</a>
+        </div>
+
+
+        <div class="card h-[450px] bg-white ml-5 rounded-none" style="width: 20rem;">
+            <h1 class="px-3 py-1 font-bold text-xl">Up to 50% off | International brands</h1>
+
+            <div class="flex">
+                <img src="./images/04.jpg" alt="1" class="my-3 px-2">
+            </div>
+
+            <a href="#" class="text-sm pt-8 px-3 text-blue-500">See more</a>
+        </div>
+
+    </div>
+
+    <!--footer-->
+    <div class="bg-slate-700 flex h-10 cursor-pointer mt-11">
+        <a href="#top" class="text-white px-[45%] pt-2"> Back to top</a>
+    </div>
+    <div class="h-[400px] bg-slate-800">
+        <div class="flex">
+            <div class="ml-[250px] w-[190px] mt-[50px]">
+                <p class="font-bold text-white">Get to Know Us</p>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">About Us</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Careers</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Press Releases</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Amazon Science</a>
+            </div>
+
+            <div class="ml-[20px] w-[180px] mt-[50px]">
+                <p class="font-bold text-white">Connect with Us</p>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Facebook</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Twitter</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Instagram</a><br>
+            </div>
+
+            <div class="mx-8 mt-[50px]">
+                <p class="font-bold text-white">Make Money with Us</p>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Sell on Amazon</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Sell under Amazon
+                    Accelerator</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Protect and Build Your
+                    Brand</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Amazon Global Selling</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Become an Affiliate</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Fulfilment by Amazon</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Advertise Your
+                    Products</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Amazon Pay on Merchants</a>
+            </div>
+
+            <div class="mx-9 mt-[50px]">
+                <p class="font-bold text-white">Let Us Help You</p>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">COVID-19 and Amazon</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Your Account</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Returns Centre</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">100% Purchase
+                    Protection</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Amazon App Download</a><br>
+                <a href="#" class="text-white text-sm hover:border-white hover:border-b-2">Help</a>
+            </div>
+
+        </div>
+        <hr class="border-white mt-5">
+        <div class="flex">
+            <div>
+                <img src="./images/1688364164amazon-logo-transparent.webp" alt="amazon" class="h-7 mt-8 ml-[450px]">
+            </div>
+            <div class="flex border-2 border-gray-400 rounded-sm mt-4 ml-[80px] pt-1 pb-1">
+                <img src="./images/world-wide-web.png" alt="world" class="h-5 px-2">
+                <p class="text-gray-400 px-2 w-[100px]">English</p>
+            </div>
+            <div class="flex border-2 border-gray-400 rounded-sm mt-4 ml-[30px] pt-1 pb-1">
+                <img src="./images/flag.png" alt="world" class="h-5 px-2">
+                <p class="text-gray-400 px-2 w-[100px]">India</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="h-[350px] bg-slate-900">
+        <div class="flex">
+            <div class="hover:border-gray-600 hover:border-b-2 mt-5 ml-[350px]">
+                <a href="#" class="text-white text-sm">AbeBooks</a><br>
+                <a href="#" class="text-gray-300 text-xs">Books, art</a><br>
+                <a href="#" class="text-gray-300 text-xs">& collectibles</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-5 ml-[130px]">
+                <a href="#" class="text-white text-sm">Amazon Web Services</a><br>
+                <a href="#" class="text-gray-300 text-xs">Scalable Cloud</a><br>
+                <a href="#" class="text-gray-300 text-xs">Computing Services</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-5 ml-[130px]">
+                <a href="#" class="text-white text-sm">Audible</a><br>
+                <a href="#" class="text-gray-300 text-xs">Download</a><br>
+                <a href="#" class="text-gray-300 text-xs">Audio Books</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-5 ml-[130px]">
+                <a href="#" class="text-white text-sm"> IMDb</a><br>
+                <a href="#" class="text-gray-300 text-xs">Movies, TV</a><br>
+                <a href="#" class="text-gray-300 text-xs">& Celebrities</a>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="hover:border-gray-600 hover:border-b-2 mt-4 ml-[350px]">
+                <a href="#" class="text-white text-sm">Shopbop</a><br>
+                <a href="#" class="text-gray-300 text-xs">Designer</a><br>
+                <a href="#" class="text-gray-300 text-xs">Fashion Brands</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-4 ml-[120px]">
+                <a href="#" class="text-white text-sm">Amazon Business</a><br>
+                <a href="#" class="text-gray-300 text-xs">Everything For</a><br>
+                <a href="#" class="text-gray-300 text-xs">Your Business</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-4 ml-[160px]">
+                <a href="#" class="text-white text-sm">Prime Now</a><br>
+                <a href="#" class="text-gray-300 text-xs">2-Hour Delivery</a><br>
+                <a href="#" class="text-gray-300 text-xs">on Everyday Items</a>
+            </div>
+            <div class="hover:border-gray-600 hover:border-b-2 mt-4 ml-[100px]">
+                <a href="#" class="text-white text-sm"> Amazon Prime Music</a><br>
+                <a href="#" class="text-gray-300 text-xs">100 million songs, ad-free</a><br>
+                <a href="#" class="text-gray-300 text-xs">Over 15 million podcast episodes</a>
+            </div>
+
+        </div>
+        <div class="mt-11">
+            <a href="#" class="pl-3 text-white text-sm ml-[500px] hover:border-gray-600 hover:border-b-2">Conditions of
+                Use & Sale</a>
+            <a href="#" class="pl-3 text-white text-sm hover:border-gray-600 hover:border-b-2">Privacy Notice</a>
+            <a href="#" class="pl-3 text-white text-sm hover:border-gray-600 hover:border-b-2">Interest-Based
+                Ads</a><br>
+            <a href="#" class="pl-3 text-white text-sm ml-[550px]">© 1996-2024, Amazon.com, Inc. or its
+                affiliates</a><br>
+        </div>
+    </div>
+</body>
+
+</html>
